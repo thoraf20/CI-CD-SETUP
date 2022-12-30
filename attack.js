@@ -1,5 +1,3 @@
-const attack = (createureName, damage, isCritical) => {
-  return `${createureName} dealt ${isCritical ? damage * 2 : damage} damage!`
-}
+const attack = (createureName, damage, isCritical) => `${createureName} dealt ${isCritical ? damage * 2 : damage} damage!`;
 
 module.exports = attack;
